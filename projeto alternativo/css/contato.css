@@ -1,0 +1,159 @@
+
+:root {
+    --azul: #244054;
+    --marrom: #9c7846;
+    --amarelo: #f3d788;
+    --branco: #fff;
+    --preto: #000;
+  }
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Inicio do cabecalho*/
+
+.cabecalho{
+    border: 1px solid;
+    background-color: #244054;
+}
+
+.banner{
+    width: 100%;
+}
+
+.banner_imagem{
+    width: 100%;
+}
+
+.cabecalho_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: #244054;
+}
+
+.cabecalho_link{
+    padding: 22px 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.cabecalho_link:hover{
+    background-color: var(--amarelo);
+    color: var(--marrom);
+}
+
+
+/*Fim cabecalho, inicio contato*/
+
+.contato{
+    margin: 50px 10%;
+}
+
+.contato_titulo{
+    text-align: center;
+    color: var(--amarelo);
+    font-size: 50px;
+    margin: 30px 0;
+}
+
+.contato_informacacoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15% 0 ;
+}
+
+.contato_informacoes_dados ul {
+    list-style-type: none;
+}
+
+.contato_informacoes_dados ul li{
+    padding: 20px 5px;
+    font-size: 30px;
+    color: var(--azul);
+    font-weight: 700;
+}
+
+
+
+.contato_informacoes_formulario label{
+    font-size: 20px;
+    
+}
+
+
+.campos_form{
+    width: 300px;
+    height: 30px;
+}
+
+.campos_form_textarea{
+    width: 300px;
+    height: 60px;
+}
+
+.botao_enviar{
+    padding: 10px;
+    color: var(--branco);
+    background-color: var(--azul);
+    border-radius: 3px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+/* Fim CONTATO */
+
+
+/*INICIO MAPA*/
+
+.mapa{
+    margin: 50px 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.mapa_maps{
+    width: 80%;
+}
+
+
+/* Inicio RODAPE */
+
+.rodape{
+    height: 150px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--azul);
+    padding: 0 10%;
+    color: #fff;
+}
+
+.rodape_nome img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 0 20px 0 0;
+    
+}
+
+.rodape_nome{
+    display: flex;
+    align-items: center;
+}
+
+.rodape_redes img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
