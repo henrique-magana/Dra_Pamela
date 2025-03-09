@@ -1,0 +1,116 @@
+
+
+.area_atuacao{
+    background-color: var(--branco);
+    margin: 50px 10%;
+}
+
+
+.area_atuacao_titulo{
+    text-align: center;
+    color: var(--amarelo);
+    font-size: 30px;
+}
+
+.area_atuacao_descricao{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.area_atuacao_descricao_bloco{
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.area_atuacao_descricao_bloco_foto{
+    text-align: center;
+    font-size: 20px;
+}
+
+.area_atuacao_descricao_bloco_foto img{
+    height: 200px;
+    width: 200px;
+}
+
+.area_atuacao_descricao_bloco_servicos{
+    display: flex;
+    align-items: center;
+}
+
+
+.area_atuacao_descricao_bloco_servicos ul{
+    list-style-type: none;
+}
+
+.area_atuacao_descricao_bloco_servicos li{
+    padding: 5px 0;
+}
+
+
+
+@media ( min-width:1920px){
+
+
+    
+    .area_atuacao_descricao_bloco {
+        margin: 40px 0 60px;
+    }
+
+
+
+    .area_atuacao_descricao_bloco_foto img{
+        height: 250px;
+        width: 250px;
+    }
+
+    .area_atuacao_descricao_bloco_foto h1{
+        font-size: 40px;
+    }
+
+    .area_atuacao_descricao_bloco_servicos li{
+        font-size: 30px;
+    }
+
+
+}
+
+
+@media ( max-width:700px){
+
+    .area_atuacao_descricao{
+        
+        margin: 0 0 100px 0;
+    }
+
+    .area_atuacao_descricao_bloco{
+        flex-direction: column;
+    } 
+
+
+    .area_atuacao_descricao_bloco_servicos ul{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin: 0 10px;
+    }
+    .area_atuacao_descricao_bloco_foto h1{
+        margin: 15px 0;
+    }
+
+    .area_atuacao_descricao_bloco_servicos li{
+        text-align: center;
+    }
+}
+
+
+@media ( max-width:378px){
+    .area_atuacao_descricao_bloco_foto img{
+        height: 150px;
+        width: 150px;
+    }
+
+
+}

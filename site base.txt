@@ -1,1 +1,14 @@
 https://www.advocaciabmf.com/
+
+tamanhos de tela
+
+Tamanhos de tela:
+- Mobile: 320px a 768px
+- Tablet: 769px a 1024px
+- Desktop: 1025px a 1280px
+- Large desktop: 1281px ou mais
+
+Pontos de quebra:
+- Mobile: 320px, 375px, 425px
+- Tablet: 768px, 1024px
+- Desktop: 1280px, 1440px, 1920px
