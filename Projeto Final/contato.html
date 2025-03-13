@@ -30,14 +30,14 @@
             <article class="contato_informacacoes">
                 <div class="contato_informacoes_dados">
                     <ul>
-                        <li>Rua Lorem, ipsum dolor.</li>
-                        <li>Tel: 11111-1111</li>
-                        <li>Email: pam@gmail.com</li>
+                        <li>Rua Ângelo Romão n° 09</li>
+                        <li>Tel: +55 (11) 95205-7510</li>
+                        <li>Email: pamela.fadelli@adv.oabsp.org.br</li>
                     </ul>
 
                 </div>
                 <div class="contato_informacoes_formulario">
-                    <form action="#">
+                    <form action="https://formsubmit.co/pamela.fadelli@adv.oabsp.org.br" method="POST">
                         <label for="nome">Nome:</label><br>
                         <input type="text" id="nome" name="nome" class="campos_form" required placeholder="Ex: Joao da Silva"><br><br>
                         
@@ -50,7 +50,11 @@
                         <label for="mensagem">Mensagem:</label><br>
                         <textarea id="mensagem" name="mensagem" class="campos_form_textarea" required></textarea><br><br>
                         
-                        <input type="submit" value="Enviar" class="botao_enviar">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html"> <!-- Aqui precisa colocar o site com barra mias a pagina de obrigado-->
+
+                        <input type="hidden" name="_captcha" value="false">
+
+                        <input type="submit" value="Enviar" class="botao_enviar" id="input">
                       </form>
                       
                 </div>
