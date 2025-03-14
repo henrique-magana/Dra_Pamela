@@ -19,20 +19,20 @@
 }
 
 
-.area_atuacao_especifico_bloco{
+.area_atuacao_especifico_bloco_{
     display: inline;
     text-align: center;
     padding: 10px 50px;
 }
 
-.area_atuacao_especifico_bloco img{
+.area_atuacao_especifico_bloco_ img{
     height: 200px;
     width: 200px;
     margin: 10px 0;
     border-radius: 100px;
 }
 
-.area_atuacao_especifico_bloco h1{
+.area_atuacao_especifico_bloco_ h1{
     font-size: 30px;
     margin: 15px 0;
     color: var(--azul);
