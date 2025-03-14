@@ -138,6 +138,7 @@ display: inline;
     text-align: center;
 }
 
+
 .area_atuacao_especifico_bloco img{
     height: 200px;
     width: 200px;
@@ -145,16 +146,76 @@ display: inline;
 
 .area_atuacao_especifico_bloco h1{
     font-size: 30px;
+    margin: 10px 0 20px 0;
 }
+
+.area_atuacao_especifico_bloco a{
+    padding: 10px;
+    color: var(--branco);
+    background-color: var(--azul);
+    border-radius: 3px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    text-decoration: none;
+}
+
+.area_atuacao_especifico_bloco a:hover{
+    background-color: var(--amarelo);
+    color: var(--marrom)
+}
+
 
 
 
 
 /*Fim AREA DE ATUACAO*/
 
-/*Inicio CONTATO*/
+
+.como_trabalhamos{
+
+    text-align: center;
+}
+
+.como_trabalhamos_titulo_pri, .como_trabalhamos_titulo_sec{
+    font-size: 40px;
+}
+
+.como_trabalhamos_titulo_pri{
+    color: var(--azul);
+}
+
+.como_trabalhamos_titulo_sec{
+    color: var(--amarelo);
+}
 
 
+.como_trabalhamos_caixa{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10%;
+}
+
+.como_trabalhamos_caixa_passo{
+    padding: 10px 30px;
+    margin: 30px 0;
+}
+
+.como_trabalhamos_caixa_passo h1{
+    font-size: 45px;
+    color: var(--amarelo);
+}
+
+
+.como_trabalhamos_caixa_passo h2{
+    margin: 10px 0;
+    color: var(--azul);
+}
+
+.como_trabalhamos_caixa_passo p{
+    
+}
 
 
 
@@ -274,6 +335,12 @@ display: inline;
 
     .sobre{
         margin: 50px 8%;
+    }
+
+    .como_trabalhamos_caixa{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 10%;
     }
 }
 
@@ -462,6 +529,10 @@ display: inline;
         font-size: 30px;
     }
 
+    .como_trabalhamos_caixa{
+        display: flex;
+        flex-direction: column;
+    }
 
     .rodape_nome h1{
     display: none;
@@ -524,6 +595,6 @@ display: inline;
         margin: 15px 0 0 0 ;
     }
 
-
+    
 
 }
