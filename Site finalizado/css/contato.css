@@ -8,6 +8,14 @@
     background-color: #e5e5e5;
 }
 
+.contato p{
+    text-align: center;
+    color: var(--azul);
+    font-size: 25px;
+    margin: 15px 0;
+    padding: 0 5%;
+}
+
 .contato_titulo{
     text-align: center;
     color: var(--azul);
@@ -175,6 +183,10 @@
     
     .contato_titulo{
         font-size: 30px;
+    }
+
+    .contato p{
+        font-size: 20px;
     }
     
     .contato_informacoes_dados ul li{

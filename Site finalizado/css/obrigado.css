@@ -22,3 +22,20 @@
     font-size: 3vh;
     font-weight: 700;
 }
+
+
+@media ( max-width:600px){
+    .conteudo_obrigado h1{
+        font-size: 6vh;
+    }
+
+
+    
+}
+
+@media ( max-width:450px){
+    .conteudo_obrigado h1{
+        font-size: 4vh;
+    }
+
+}
